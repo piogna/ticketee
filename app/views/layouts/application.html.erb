@@ -26,9 +26,9 @@
             <span class="icon-bar"></span>
           </button>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="collapse navbar-collapse" id="collapse">
-            <li class="<%= "active" if current_page?("/") %>">
+        <div class="collapse navbar-collapse" id="collapse">
+          <ul class="nav navbar-nav">
+            <li class="<%= 'active' if current_page?("/") %>">
               <%= link_to "Home", root_path %>
             </li>
           </ul>
